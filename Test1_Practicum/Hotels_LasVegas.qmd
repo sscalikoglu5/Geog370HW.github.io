@@ -1,0 +1,96 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.22.14-Białowieża">
+  <identifier>HotelConvTour</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>HotelConvTour_x</title>
+  <abstract>A point layer of Clark County Casino Resorts, Resorts, Hotels, Timeshares, High Rise Residential, Hotel Meeting Facilities, and Convention Centers.
+FacName - This is the full official name of the facility
+Address - Address of the Facility
+Name - Short or common name of the facility
+Location - where in Clark County the facility is located: Boulder City, Downtown (Las Vegas), Henderson, Jean, Las Vegas Valley (includes Las Vegas, North Las Vegas, and Clark County), Laughlin, Mesquite, Mt Charleston, Primm, Strip (on Las Vegas Blvd), and Strip Corridor (in the resort corridor but not directly on Las Vegas Blvd).
+FacType - This field will be either Primary or Secondary. Primary denotes that it is the primary point for that entire facility. For example, Mandalay Bay has multiple points on it's facility. Mandalay Bay is the Primary facilitiy and The Hotel, The Four Seasons, and the Convention Center are all Secondary facilities.
+FacFeature - Casino, Casino Resort, Convention Center, High Rise Residential, Hotel, Hotel Meeting Facilities (over 100,000 square feet), Resort, and Timeshare
+NumTowers - Total number of Towers for the facility. The number of towers is zero where the facility only has small buildings on the property, but not actual towers.
+NumFloors - This field shows the highest number of floors for that facility. If there are multiple towers, this field will show only the number of floors for the tallest tower. Some facilities have multiple towers that all have the same number of floors.
+NumUnits - The field shows to total number of rooms or units for that facility.
+ConvSqFt - This field shows the total square footage for Convention Centers or Hotel Meeting Facilities.
+Update - Date the information was last updated.
+
+
+Delineates Clark County Casino Resorts, Resorts, Hotels, Timeshares, High Rise Residential, Hotel Meeting Facilities, and Convention Centers.
+
+A point layer of Clark County Casino Resorts, Resorts, Hotels, Timeshares, High Rise Residential, Hotel Meeting Facilities, and Convention Centers.FacName - This is the full official name of the facilityAddress - Address of the FacilityName - Short or common name of the facilityLocation - where in Clark County the facility is located: Boulder City, Downtown (Las Vegas), Henderson, Jean, Las Vegas Valley (includes Las Vegas, North Las Vegas, and Clark County), Laughlin, Mesquite, Mt Charleston, Primm, Strip (on Las Vegas Blvd), and Strip Corridor (in the resort corridor but not directly on Las Vegas Blvd).FacType - This field will be either Primary or Secondary. Primary denotes that it is the primary point for that entire facility. For example, Mandalay Bay has multiple points on it's facility. Mandalay Bay is the Primary facilitiy and The Hotel, The Four Seasons, and the Convention Center are all Secondary facilities.FacFeature - Casino, Casino Resort, Convention Center, High Rise Residential, Hotel, Hotel Meeting Facilities (over 100,000 square feet), Resort, and TimeshareNumTowers - Total number of Towers for the facility. The number of towers is zero where the facility only has small buildings on the property, but not actual towers.NumFloors - This field shows the highest number of floors for that facility. If there are multiple towers, this field will show only the number of floors for the tallest tower. Some facilities have multiple towers that all have the same number of floors.NumUnits - The field shows to total number of rooms or units for that facility.ConvSqFt - This field shows the total square footage for Convention Centers or Hotel Meeting Facilities.Update - Date the information was last updated.
+
+Delineates Clark County Casino Resorts, Resorts, Hotels, Timeshares, High Rise Residential, Hotel Meeting Facilities, and Convention Centers.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>Tourism</keyword>
+    <keyword>Society</keyword>
+    <keyword>Casino Resort</keyword>
+    <keyword>Resort</keyword>
+    <keyword>Hotel</keyword>
+    <keyword>Timeshare</keyword>
+    <keyword>High Rise Residential</keyword>
+    <keyword>Convention Center</keyword>
+    <keyword>Hotel Meeting Facility</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>Society</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>mailing address</type>
+      <address>PO Box 551761</address>
+      <city>Las Vegas</city>
+      <administrativearea>NV</administrativearea>
+      <postalcode>89155-1761</postalcode>
+      <country>USA</country>
+    </contactAddress>
+    <contactAddress>
+      <type>physical address</type>
+      <address>500 S Grand Central Pkwy</address>
+      <city>Las Vegas</city>
+      <administrativearea>NV</administrativearea>
+      <postalcode>89155</postalcode>
+      <country>USA</country>
+    </contactAddress>
+    <name>Clark County GIS Management Office</name>
+    <organization>Clark County GIS Management Office</organization>
+    <position></position>
+    <voice>702-455-3855</voice>
+    <fax>702-455-4932</fax>
+    <email>gismo@co.clark.nv.us</email>
+    <role>Point of contact</role>
+  </contact>
+  <links>
+    <link mimeType="" name="Shapefile" description="" size="" format="" url="file://\\ccgis1\gisdata\prscl2\wip\dempsej\VisitorFac_x.shp" type="Local Area Network"/>
+  </links>
+  <fees></fees>
+  <constraints type="Access">Public Data</constraints>
+  <rights>The following were used in order to compile this data: Las Vegas Convention Authority website, hotel finder websites, High Rise Condo websites, and calling facilities for information.</rights>
+  <rights>This information is for display purposes only. No liability is assumed as to the accuracy of the data delineated herein.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys>
+      <wkt>PROJCRS["NAD83 / Nevada East (ftUS)",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["SPCS83 Nevada East zone (US Survey feet)",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",34.75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-115.583333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",656166.6667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8806]],PARAMETER["False northing",26246666.6667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219]],USAGE[SCOPE["unknown"],AREA["USA - Nevada - SPCS - E"],BBOX[34.99,-117.01,42,-114.03]],ID["EPSG",3421]]</wkt>
+      <proj4>+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000.00001016 +y_0=8000000.00001016 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+      <srsid>1379</srsid>
+      <srid>3421</srid>
+      <authid>EPSG:3421</authid>
+      <description>NAD83 / Nevada East (ftUS)</description>
+      <projectionacronym>tmerc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxy="36.82659999999999911" miny="35.13989999999999725" maxx="-114.06419999999999959" maxz="0" minx="-115.59340000000000259" crs="EPSG:3421" dimensions="2" minz="0"/>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
